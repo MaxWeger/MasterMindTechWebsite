@@ -1,9 +1,53 @@
 @charset "UTF-8";
 /* CSS Document */
+
+html {
+	margin-top: 0px!important;
+	border: 0px;
+	padding: 0px;
+}
+
 body {
 	background-image:url(Pictures/YosemitieBackground.jpg);
 	background-attachment: fixed;
-	background-position: center;
+	background-position: top;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+background {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#menubar {
+	position: fixed;
+	top: 0px
+	margin: 0px auto;
+	right: 0px;
+	left: 0px;
+	margin-top: 0px!important;
+	width: 100%;
+	height: 65px;
+	background-color: #00F;
+	text-shadow: 3px 2px 2px #000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	padding-top: 0px;
+	margin: 0px auto;
+	padding: 0px auto;
+	border: 0px auto;
+	text-align:left;
+	display:block;
+}
+
+
+#menubar ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 div {
@@ -12,6 +56,8 @@ div {
 	height: 300px;
 	margin-top: 100px;
 	margin-left: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 div#Div2 {
@@ -20,6 +66,8 @@ div#Div2 {
 	height: 300px;
 	margin-top: 200px;
 	margin-left: 0px;
+	right: 0px;
+	left: 0px;
 }
 
 div#DivTable {
@@ -27,13 +75,40 @@ div#DivTable {
 	width: 100%;
 	height: 300px;
 	margin-top: 200px;
+	padding-top: 1px;
 	margin-left: 0px;
 	margin-right: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 table#DownloadsTable {
 	background-color: #C00;
 	text-align: center;
 	padding: 3px;
-	border: 1px #000;
+	border: 1px solid black;
+	border-collapse:collapse;
+	margin-top: 37.5px;
+	margin-left: 50px;
+	width: 40%;
+	vertical-align: middle;
+	}
+	
+h2#TableDivH2 {
+	font-family:"Times New Roman", Times, serif;
+	font-size: 36px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 50%;
+}
+
+p#DivTableParagraph {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	color: #FFF;
+	margin-left: 50%;
+	margin-top: 10px;
+	vertical-align: middle;
 }
