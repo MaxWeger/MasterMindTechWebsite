@@ -9,14 +9,32 @@
 </head>
 
 <body>
-
-<div style="margin:0px; padding:5px;"id="menubar">
-	<ul style="text-align:left">
-    	<li style="display:inline"><a href="index.html">Home</a></li>
-        <li style="display:inline"><a href="DownloadsPage.html">Downloads</a></li>
-        <li style="display:inline"><a href="http://www.microsoft.com">News</a></li>
-     </ul>
+<div style="margin:0px; padding:5px; position: fixed; "id="menubar">
+	<!-- Comment <ul class="left">
+    	<li style="display:inline; text-align: left; vertical-align: middle;">
+        	<a href="index.html">
+            	Home
+            </a>
+        </li>
+        <li style="display:inline; text-align: left; vertical-align: middle;">
+        	<a href="DownloadsPage.html">
+        		Downloads
+        	</a>
+        </li>
+        <li style="display:inline; text-align: left; vertical-align: middle;">
+        	<a href="http://www.microsoft.com">
+            	News
+            </a>
+        </li>
+     </ul> Comment -->
+     <div id="HomeBox">Home</div>
+     <div style="width: auto; vertical-align: middle; height: 10px;"id="DownloadsBox">Downloads</div>
+     <div style="vertical-align: top; height: auto;" id="NewsBox">News</div>
 </div>
+
+
+
+
 
 <div>
 	<p style="font-family:Arial, Helvetica, sans-serif;color: #FFF; font-size: 24px; padding-top: 5px; padding-left: 5px"">This is the downloads page</p>
@@ -24,6 +42,7 @@
 
 <div id="Div2">
 	<p style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; color: #FFF; font-size: 18px; padding-top: 5px; padding-left: 5px">This is the second div for the downloads page</p>
+    <br />
     <p>Test</p>
     </div>
     
